@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	jwtmiddleware "github.com/auth0/go-jwt-middleware"
 	"github.com/golang-jwt/jwt"
 	"github.com/gorilla/mux"
+	jwtmiddleware "github.com/prest/go-jwt-middleware"
 	"github.com/urfave/negroni"
 )
 

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	jwtmiddleware "github.com/auth0/go-jwt-middleware"
 	"github.com/go-martini/martini"
 	"github.com/golang-jwt/jwt"
+	jwtmiddleware "github.com/prest/go-jwt-middleware"
 )
 
 func main() {
