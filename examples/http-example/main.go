@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	jwtmiddleware "github.com/auth0/go-jwt-middleware"
-	"github.com/form3tech-oss/jwt-go"
+	"github.com/golang-jwt/jwt"
+	jwtmiddleware "github.com/prest/go-jwt-middleware"
 )
 
 var myHandler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
